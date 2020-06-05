@@ -8,7 +8,7 @@ each other using various interchangeable data formats.
 ## Installation
 
 ```shell script
-sudo -H python3 setup.py
+sudo -H make install
 ```
 
 ## Example Server
@@ -64,7 +64,7 @@ async def fetch(session):
 
 
 async def go():
-    async with aiohttp.ClientSession() as session:
+    async with hyper_internal_service.ClientSession() as session:
         await fetch(session)
 
 
