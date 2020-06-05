@@ -1,0 +1,20 @@
+include LICENSE.txt
+include CHANGES.rst
+include README.rst
+include CONTRIBUTORS.txt
+include Makefile
+graft hyper_internal_service
+graft docs
+graft examples
+graft tests
+recursive-include vendor *
+global-include hyper_internal_service *.pyi
+global-exclude *.pyc
+global-exclude *.pyd
+global-exclude *.so
+global-exclude *.lib
+global-exclude *.dll
+global-exclude *.a
+global-exclude *.obj
+exclude hyper_internal_service/*.html
+prune docs/_build
