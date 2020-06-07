@@ -11,6 +11,12 @@ each other using various interchangeable data formats.
 sudo -H make install
 ```
 
+or 
+```shell script
+python3 -m pip install -Ur dev_requirements.txt
+python3 setup.py install
+```
+
 ## Example Server
 
 ```python
