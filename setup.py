@@ -101,7 +101,6 @@ args = dict(
         'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows',
         'Topic :: Internet :: WWW/HTTP',
-        'Framework :: AsyncIO',
     ],
     author='Intellivoid Technologies',
     author_email='netkas@intellivoid.net',

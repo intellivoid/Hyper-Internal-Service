@@ -370,7 +370,7 @@ async def _run_app(app: Union[Application, Awaitable[Application]], *,
 
         if print:  # pragma: no branch
             names = sorted(str(s.name) for s in runner.sites)
-            print("======== Running on {} ========\n"
+            print("======== Hyper Internal Service Running on {} ========\n"
                   "(Press CTRL+C to quit)".format(', '.join(names)))
         while True:
             await asyncio.sleep(3600)  # sleep forever by 1 hour intervals
